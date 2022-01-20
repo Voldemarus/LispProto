@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BDB9969279959A900DC8B14 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDB9968279959A900DC8B14 /* AppDelegate.m */; };
+		1BDB996C279959A900DC8B14 /* LispProto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1BDB996A279959A900DC8B14 /* LispProto.xcdatamodeld */; };
+		1BDB996E279959B500DC8B14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BDB996D279959B500DC8B14 /* Assets.xcassets */; };
+		1BDB9971279959B500DC8B14 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BDB996F279959B500DC8B14 /* MainMenu.xib */; };
+		1BDB9974279959B500DC8B14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDB9973279959B500DC8B14 /* main.m */; };
+		1BDB997F279959B600DC8B14 /* LispProtoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDB997E279959B600DC8B14 /* LispProtoTests.m */; };
+		1BDB998A279959B600DC8B14 /* LispProtoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDB9989279959B600DC8B14 /* LispProtoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1BDB997B279959B600DC8B14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BDB995C279959A900DC8B14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BDB9963279959A900DC8B14;
+			remoteInfo = LispProto;
+		};
+		1BDB9986279959B600DC8B14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BDB995C279959A900DC8B14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BDB9963279959A900DC8B14;
+			remoteInfo = LispProto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BDB9964279959A900DC8B14 /* LispProto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LispProto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BDB9967279959A900DC8B14 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1BDB9968279959A900DC8B14 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1BDB996B279959A900DC8B14 /* LispProto.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LispProto.xcdatamodel; sourceTree = "<group>"; };
+		1BDB996D279959B500DC8B14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1BDB9970279959B500DC8B14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1BDB9972279959B500DC8B14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BDB9973279959B500DC8B14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1BDB9975279959B500DC8B14 /* LispProto.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LispProto.entitlements; sourceTree = "<group>"; };
+		1BDB997A279959B600DC8B14 /* LispProtoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LispProtoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BDB997E279959B600DC8B14 /* LispProtoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LispProtoTests.m; sourceTree = "<group>"; };
+		1BDB9980279959B600DC8B14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BDB9985279959B600DC8B14 /* LispProtoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LispProtoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BDB9989279959B600DC8B14 /* LispProtoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LispProtoUITests.m; sourceTree = "<group>"; };
+		1BDB998B279959B600DC8B14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BDB9961279959A900DC8B14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BDB9977279959B600DC8B14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BDB9982279959B600DC8B14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BDB995B279959A900DC8B14 = {
+			isa = PBXGroup;
+			children = (
+				1BDB9966279959A900DC8B14 /* LispProto */,
+				1BDB997D279959B600DC8B14 /* LispProtoTests */,
+				1BDB9988279959B600DC8B14 /* LispProtoUITests */,
+				1BDB9965279959A900DC8B14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1BDB9965279959A900DC8B14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BDB9964279959A900DC8B14 /* LispProto.app */,
+				1BDB997A279959B600DC8B14 /* LispProtoTests.xctest */,
+				1BDB9985279959B600DC8B14 /* LispProtoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BDB9966279959A900DC8B14 /* LispProto */ = {
+			isa = PBXGroup;
+			children = (
+				1BDB9967279959A900DC8B14 /* AppDelegate.h */,
+				1BDB9968279959A900DC8B14 /* AppDelegate.m */,
+				1BDB996D279959B500DC8B14 /* Assets.xcassets */,
+				1BDB996F279959B500DC8B14 /* MainMenu.xib */,
+				1BDB9972279959B500DC8B14 /* Info.plist */,
+				1BDB9973279959B500DC8B14 /* main.m */,
+				1BDB9975279959B500DC8B14 /* LispProto.entitlements */,
+				1BDB996A279959A900DC8B14 /* LispProto.xcdatamodeld */,
+			);
+			path = LispProto;
+			sourceTree = "<group>";
+		};
+		1BDB997D279959B600DC8B14 /* LispProtoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1BDB997E279959B600DC8B14 /* LispProtoTests.m */,
+				1BDB9980279959B600DC8B14 /* Info.plist */,
+			);
+			path = LispProtoTests;
+			sourceTree = "<group>";
+		};
+		1BDB9988279959B600DC8B14 /* LispProtoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1BDB9989279959B600DC8B14 /* LispProtoUITests.m */,
+				1BDB998B279959B600DC8B14 /* Info.plist */,
+			);
+			path = LispProtoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BDB9963279959A900DC8B14 /* LispProto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BDB998E279959B600DC8B14 /* Build configuration list for PBXNativeTarget "LispProto" */;
+			buildPhases = (
+				1BDB9960279959A900DC8B14 /* Sources */,
+				1BDB9961279959A900DC8B14 /* Frameworks */,
+				1BDB9962279959A900DC8B14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LispProto;
+			productName = LispProto;
+			productReference = 1BDB9964279959A900DC8B14 /* LispProto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1BDB9979279959B600DC8B14 /* LispProtoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BDB9991279959B600DC8B14 /* Build configuration list for PBXNativeTarget "LispProtoTests" */;
+			buildPhases = (
+				1BDB9976279959B600DC8B14 /* Sources */,
+				1BDB9977279959B600DC8B14 /* Frameworks */,
+				1BDB9978279959B600DC8B14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BDB997C279959B600DC8B14 /* PBXTargetDependency */,
+			);
+			name = LispProtoTests;
+			productName = LispProtoTests;
+			productReference = 1BDB997A279959B600DC8B14 /* LispProtoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1BDB9984279959B600DC8B14 /* LispProtoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BDB9994279959B600DC8B14 /* Build configuration list for PBXNativeTarget "LispProtoUITests" */;
+			buildPhases = (
+				1BDB9981279959B600DC8B14 /* Sources */,
+				1BDB9982279959B600DC8B14 /* Frameworks */,
+				1BDB9983279959B600DC8B14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BDB9987279959B600DC8B14 /* PBXTargetDependency */,
+			);
+			name = LispProtoUITests;
+			productName = LispProtoUITests;
+			productReference = 1BDB9985279959B600DC8B14 /* LispProtoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BDB995C279959A900DC8B14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					1BDB9963279959A900DC8B14 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					1BDB9979279959B600DC8B14 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 1BDB9963279959A900DC8B14;
+					};
+					1BDB9984279959B600DC8B14 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 1BDB9963279959A900DC8B14;
+					};
+				};
+			};
+			buildConfigurationList = 1BDB995F279959A900DC8B14 /* Build configuration list for PBXProject "LispProto" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1BDB995B279959A900DC8B14;
+			productRefGroup = 1BDB9965279959A900DC8B14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BDB9963279959A900DC8B14 /* LispProto */,
+				1BDB9979279959B600DC8B14 /* LispProtoTests */,
+				1BDB9984279959B600DC8B14 /* LispProtoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BDB9962279959A900DC8B14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BDB996E279959B500DC8B14 /* Assets.xcassets in Resources */,
+				1BDB9971279959B500DC8B14 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BDB9978279959B600DC8B14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BDB9983279959B600DC8B14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BDB9960279959A900DC8B14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BDB996C279959A900DC8B14 /* LispProto.xcdatamodeld in Sources */,
+				1BDB9974279959B500DC8B14 /* main.m in Sources */,
+				1BDB9969279959A900DC8B14 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BDB9976279959B600DC8B14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BDB997F279959B600DC8B14 /* LispProtoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BDB9981279959B600DC8B14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BDB998A279959B600DC8B14 /* LispProtoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1BDB997C279959B600DC8B14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BDB9963279959A900DC8B14 /* LispProto */;
+			targetProxy = 1BDB997B279959B600DC8B14 /* PBXContainerItemProxy */;
+		};
+		1BDB9987279959B600DC8B14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BDB9963279959A900DC8B14 /* LispProto */;
+			targetProxy = 1BDB9986279959B600DC8B14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1BDB996F279959B500DC8B14 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BDB9970279959B500DC8B14 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1BDB998C279959B600DC8B14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1BDB998D279959B600DC8B14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1BDB998F279959B600DC8B14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LispProto/LispProto.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UKBNTL7HA9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = LispProto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = geomatix.cz.LispProto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1BDB9990279959B600DC8B14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LispProto/LispProto.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UKBNTL7HA9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = LispProto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = geomatix.cz.LispProto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1BDB9992279959B600DC8B14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UKBNTL7HA9;
+				INFOPLIST_FILE = LispProtoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = geomatix.cz.LispProtoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LispProto.app/Contents/MacOS/LispProto";
+			};
+			name = Debug;
+		};
+		1BDB9993279959B600DC8B14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UKBNTL7HA9;
+				INFOPLIST_FILE = LispProtoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = geomatix.cz.LispProtoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LispProto.app/Contents/MacOS/LispProto";
+			};
+			name = Release;
+		};
+		1BDB9995279959B600DC8B14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UKBNTL7HA9;
+				INFOPLIST_FILE = LispProtoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = geomatix.cz.LispProtoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LispProto;
+			};
+			name = Debug;
+		};
+		1BDB9996279959B600DC8B14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UKBNTL7HA9;
+				INFOPLIST_FILE = LispProtoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = geomatix.cz.LispProtoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LispProto;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BDB995F279959A900DC8B14 /* Build configuration list for PBXProject "LispProto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BDB998C279959B600DC8B14 /* Debug */,
+				1BDB998D279959B600DC8B14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BDB998E279959B600DC8B14 /* Build configuration list for PBXNativeTarget "LispProto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BDB998F279959B600DC8B14 /* Debug */,
+				1BDB9990279959B600DC8B14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BDB9991279959B600DC8B14 /* Build configuration list for PBXNativeTarget "LispProtoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BDB9992279959B600DC8B14 /* Debug */,
+				1BDB9993279959B600DC8B14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BDB9994279959B600DC8B14 /* Build configuration list for PBXNativeTarget "LispProtoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BDB9995279959B600DC8B14 /* Debug */,
+				1BDB9996279959B600DC8B14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1BDB996A279959A900DC8B14 /* LispProto.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1BDB996B279959A900DC8B14 /* LispProto.xcdatamodel */,
+			);
+			currentVersion = 1BDB996B279959A900DC8B14 /* LispProto.xcdatamodel */;
+			path = LispProto.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1BDB995C279959A900DC8B14 /* Project object */;
+}
