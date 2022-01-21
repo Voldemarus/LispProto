@@ -14,6 +14,7 @@
 		1BDB9974279959B500DC8B14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDB9973279959B500DC8B14 /* main.m */; };
 		1BDB997F279959B600DC8B14 /* LispProtoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDB997E279959B600DC8B14 /* LispProtoTests.m */; };
 		1BDB998A279959B600DC8B14 /* LispProtoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDB9989279959B600DC8B14 /* LispProtoUITests.m */; };
+		1BDB999B279959DB00DC8B14 /* Lisp.l in Sources */ = {isa = PBXBuildFile; fileRef = 1BDB999A279959DB00DC8B14 /* Lisp.l */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,9 @@
 		1BDB9985279959B600DC8B14 /* LispProtoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LispProtoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BDB9989279959B600DC8B14 /* LispProtoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LispProtoUITests.m; sourceTree = "<group>"; };
 		1BDB998B279959B600DC8B14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BDB999A279959DB00DC8B14 /* Lisp.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = Lisp.l; sourceTree = "<group>"; };
+		1BDB99A027995E6800DC8B14 /* LispLex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LispLex.h; sourceTree = "<group>"; };
+		1BDB99A12799651600DC8B14 /* scantest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = scantest.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,7 @@
 				1BDB9973279959B500DC8B14 /* main.m */,
 				1BDB9975279959B500DC8B14 /* LispProto.entitlements */,
 				1BDB996A279959A900DC8B14 /* LispProto.xcdatamodeld */,
+				1BDB999F27995E4100DC8B14 /* Scanner-Parser */,
 			);
 			path = LispProto;
 			sourceTree = "<group>";
@@ -127,6 +132,16 @@
 				1BDB998B279959B600DC8B14 /* Info.plist */,
 			);
 			path = LispProtoUITests;
+			sourceTree = "<group>";
+		};
+		1BDB999F27995E4100DC8B14 /* Scanner-Parser */ = {
+			isa = PBXGroup;
+			children = (
+				1BDB99A12799651600DC8B14 /* scantest.c */,
+				1BDB999A279959DB00DC8B14 /* Lisp.l */,
+				1BDB99A027995E6800DC8B14 /* LispLex.h */,
+			);
+			path = "Scanner-Parser";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BDB999B279959DB00DC8B14 /* Lisp.l in Sources */,
 				1BDB996C279959A900DC8B14 /* LispProto.xcdatamodeld in Sources */,
 				1BDB9974279959B500DC8B14 /* main.m in Sources */,
 				1BDB9969279959A900DC8B14 /* AppDelegate.m in Sources */,
